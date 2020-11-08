@@ -1,0 +1,150 @@
+*
+{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+header
+{
+	width: 100%;
+	height: 100vh;
+	background-image:linear-gradient(rgba(1,1,4,0.5),rgba(0,0,4,0.2)), url('../images/1.jpg');
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+nav
+{
+	width: 100%;
+	height: 15vh;
+	background:rgba(0,0,0,0.2);
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	text-transform: uppercase;
+	align-items: center;
+}
+
+
+nav .logo
+{
+	text-align: center;
+}
+nav .menu
+{
+	width: 45%;
+	display: flex;
+	justify-content: space-around;
+}
+nav .menu a
+{
+	width:25%;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+/*.menu a:hover
+{
+	background:#00b894;
+	color: white;
+}*/
+main
+{
+	width: 100%;
+	height:85vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: white;
+}
+section
+{
+
+}
+section h3
+{
+	font-size: 35px;
+	font-weight: 200;
+	letter-spacing: 3px;
+	text-shadow: 1px 1px 2px black;
+}
+section h1
+{
+	margin: 30px 0 20px 0 ;
+	font-size: 55px;
+	font-weight: 700;
+	text-shadow: 2px 1px 5px black;
+	text-transform: uppercase;
+}
+section p
+{
+	font-size: 25px;
+	word-spacing: 2px;
+	margin-bottom: 25px;
+	text-shadow: 1px 1px 1px black;
+}
+section a
+{
+	padding: 12px 30px;
+	border-radius: 4px;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 1px;
+	transition: all .5 ease;
+
+}
+section .btn1
+{
+	background:#fff;
+	color: #000;
+}
+.btn1:hover
+{
+	background:#00b894;
+	color: white;
+}
+section .btn2
+{
+	background:#00b894;
+	color: white;
+}
+.btn2:hover
+{
+background:#fff;
+color: #000;
+}
+.change_places:after{
+	content: '';
+	animation: changetext 10s infinite linear;
+	color:#00b894;
+}
+@keyframes changetext
+{
+	0%{content: "Kedarnath";}
+	5%{content: "delhi";}
+	10%{content: "nainital";}
+	15%{content: "jaisalmer";}
+	20%{content: "karnataka";}
+	25%{content: "Nalanda";}
+	30%{content: "uttar-pradesh";}
+	35%{content: "jharkhand";}
+	40%{content: "kerala";}
+	45%{content: "America";}
+	50%{content: "UAE";}
+	55%{content: "Nepal";}
+	60%{content: "gaya";}
+	65%{content: "bihar";}
+	70%{content: "lovely";}
+	75%{content: "professional";}
+	80%{content: "university";}
+	85%{content: "Paghwara";}
+	90%{content: "jhalandhar";}
+	95%{content: "Law-gate";}
+	100%{content: "Earth";}
+
+
+}
